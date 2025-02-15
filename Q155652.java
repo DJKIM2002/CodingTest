@@ -1,4 +1,4 @@
-public class Lv1TwoSecretCode { // 프로그래머스 Lv1 둘만의 코드  
+public class Q155652 { // 프로그래머스 Lv1 둘만의 코드  
     // https://school.programmers.co.kr/learn/courses/30/lessons/155652
     /*
         두 문자열 s와 skip, 자연수 index가 주어질 때, 
@@ -49,7 +49,7 @@ public class Lv1TwoSecretCode { // 프로그래머스 Lv1 둘만의 코드
         }
         return answer;
 
-        // 이전 코드(실패패)
+        // 이전 코드(실패)
         // String answer = "";
         // char[] sArr = s.toCharArray(); // s를 알파벳 하나씩 쪼개어 배열로 저장 
         // for (int i = 0; i < sArr.length; i++) { // s의 길이만큼 반복
@@ -68,7 +68,7 @@ public class Lv1TwoSecretCode { // 프로그래머스 Lv1 둘만의 코드
     }
 
     public static void main(String[] args) {
-        Lv1TwoSecretCode question = new Lv1TwoSecretCode();
+        Q155652 question = new Q155652();
         String s = "aukks";
         String skip = "bcdef";
         int index = 5;
